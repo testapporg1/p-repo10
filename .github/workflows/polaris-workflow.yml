@@ -34,3 +34,4 @@ jobs:
           polaris_prComment_enabled: true
           polaris_reports_sarif_create: false
           polaris_upload_sarif_report: false
+          github_token: ${{ secrets.GH_TOKEN }}
